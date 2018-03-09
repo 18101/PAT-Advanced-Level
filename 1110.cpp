@@ -92,7 +92,6 @@ int main()
 	if(c1==-1)
 		c1=c2;
 	root=getRoot(c1);
-//	cout<<"hhh"<<root;
 	queue<int> q;
 	q.push(root);
 	bool flag1=true,flag2=true;
